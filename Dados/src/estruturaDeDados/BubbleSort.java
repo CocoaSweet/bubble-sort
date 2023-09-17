@@ -26,7 +26,7 @@ for(int i = 0; i < vetor.length; i++){
 		System.out.printf("\n%d.%d\n", (i+1),(h+1));
 		verificaVetor(vetor);
 		System.out.println();
-		for(int j = 0; j < vetor.length-1; j++){
+		for(int j = 0; vetor.length-1-i; j++){
 	     if (vetor[j] > vetor[j+1]){
 	       aux = vetor[j];
 	       vetor[j] = vetor[j+1];
